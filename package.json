@@ -2,7 +2,7 @@
   "name": "course-manager",
   "version": "0.0.0",
   "scripts": {
-    "server": "node ./server/serve.js",
+    "server": "node ./src/assets/server/serve.js",
     "dev": "concurrently \"ng serve\" \"node ./src/assets/server/serve.js\"",
     "start": "node ./src/assets/server/serve.js",
     "build": "ng build",
